@@ -66,6 +66,9 @@ projects[feeds][version] = "1.0-beta10"
 projects[filefield][subdir] = "contrib"
 projects[filefield][version] = "3.9"
 
+projects[formblock][subdir] = "contrib"
+projects[formblock][version] = "1.x-dev"
+
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "3.3"
 
@@ -107,6 +110,12 @@ projects[mollom][version] = "1.15"
 projects[nodewords][subdir] = "contrib"
 projects[nodewords][version] = "1.11"
 
+projects[openidadmin][subdir] = "contrib"
+projects[openidadmin][version] = "1.2"
+
+projects[page_title][subdir] = "contrib"
+projects[page_title][version] = "2.3"
+
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "2.0-alpha3"
 
@@ -145,6 +154,9 @@ projects[vertical_tabs][version] = "1.0-rc1"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "2.12"
+
+projects[views404][subdir] = "contrib"
+projects[views404][version] = "1.0-beta1"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "1.10"
@@ -238,11 +250,20 @@ projects[filefield_nginx_progress][version] = "1.4"
 projects[imageinfo_cache][subdir] = "performance"
 projects[imageinfo_cache][version] = "1.x-dev"
 
+projects[javascript_aggregator][subdir] = "performance"
+projects[javascript_aggregator][version] = "1.x-dev"
+
+projects[nginx_accel_redirect][subdir] = "performance"
+projects[nginx_accel_redirect][version] = "1.0"
+
 projects[session_expire][subdir] = "performance"
 projects[session_expire][version] = "1.x-dev"
 
 projects[securesite][subdir] = "performance"
 projects[securesite][version] = "2.4"
+
+projects[variable_clean][subdir] = "performance"
+projects[variable_clean][version] = "1.x-dev"
 
 projects[views_content_cache][subdir] = "performance"
 projects[views_content_cache][version] = "2.x-dev"
