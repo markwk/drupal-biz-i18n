@@ -54,6 +54,9 @@ projects[date][version] = "2.7"
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.1"
 
+projects[emfield][subdir] = "contrib"
+projects[emfield][version] = "2.4"
+
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0"
 
@@ -84,6 +87,20 @@ projects[jquery_ui][version] = "1"
 projects[link][subdir] = "contrib"
 projects[link][version] = "2.9"
 
+projects[logintoboggan][subdir] = "contrib"
+projects[logintoboggan][version] = "1.9"
+
+projects[media_youku][subdir] = "contrib"
+projects[media_youku][version] = "1.0"
+
+projects[media_tudou][subdir] = "contrib"
+projects[media_tudou][version] = "1.0"
+
+projects[media_ku6][type] = "module"
+projects[media_ku6][download][type] = "git"
+projects[media_ku6][download][url] = "git://github.com/markwk/media_ku6.git"
+projects[media_ku6][subdir] = "contrib"
+
 projects[mollom][subdir] = "contrib"
 projects[mollom][version] = "1.15"
 
@@ -113,6 +130,9 @@ projects[slideshow_creator][version] = "1.35"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
+
+projects[swftools][subdir] = "contrib"
+projects[swftools][version] = "3.0-beta4"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.15"
@@ -153,23 +173,6 @@ projects[languageicons][version] = "2.0"
 projects[i18n][subdir] = "l10n"
 projects[i18n][version] = "1.9"
 
-;  ===================================
-;  Contrib: Media Related
-;  ===================================
-projects[emfield][subdir] = "contrib"
-projects[emfield][version] = "2.4"
-
-projects[media_youku][subdir] = "contrib"
-projects[media_tudou][subdir] = "contrib"
-
-projects[media_ku6][type] = "module"
-projects[media_ku6][download][type] = "git"
-projects[media_ku6][download][url] = "git://github.com/markwk/media_ku6.git"
-projects[media_ku6][subdir] = "contrib"
-
-projects[swftools][subdir] = "contrib"
-projects[swftools][version] = "2.4"
-
 ; ===========================
 ; Themes
 ; ============================
@@ -179,6 +182,9 @@ projects[] = acquia_marina
 projects[] = fusion
 projects[] = mix_and_match
 projects[] = rubik
+projects[singular][type] = theme
+projects[singular][download][type] = git
+projects[singular][download][url] = git://github.com/developmentseed/singular.git
 
 ; ===========================
 ; Libraries
@@ -187,6 +193,17 @@ libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.1/ckeditor_3.5.1.tar.gz"
 libraries[ckeditor][directory_name] = "ckeditor"
 
+libraries[flowplayer3][download][type] = "get"
+libraries[flowplayer3][download][url] = "http://releases.flowplayer.org/flowplayer/flowplayer-3.1.5.zip"
+libraries[flowplayer3][directory_name] = "flowplayer3"
+
+libraries[swfobject][download][type] = "get"
+libraries[swfobject][download][url] = "http://swfobject.googlecode.com/files/swfobject_2_2.zip"
+libraries[swfobject][directory_name] = "swfobject"
+
+libraries[audio-player][download][type] = "get"
+libraries[audio-player][download][url] = "http://wpaudioplayer.com/wp-content/downloads/audio-player-standalone.zip"
+libraries[audio-player][directory_name] = "audio-player"
 
 ;  ===================================
 ; Performance Additions
@@ -220,9 +237,6 @@ projects[filefield_nginx_progress][version] = "1.4"
 
 projects[imageinfo_cache][subdir] = "performance"
 projects[imageinfo_cache][version] = "1.x-dev"
-
-projects[memcache][subdir] = "performance"
-projects[memcache][version] = "1.8"
 
 projects[session_expire][subdir] = "performance"
 projects[session_expire][version] = "1.x-dev"
