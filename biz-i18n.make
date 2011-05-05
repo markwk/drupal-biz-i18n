@@ -51,6 +51,9 @@ projects[ctools][version] = "1.8"
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.7"
 
+projects[dialog][subdir] = "contrib"
+projects[dialog][version] = "1.0-alpha2"
+
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.1"
 
