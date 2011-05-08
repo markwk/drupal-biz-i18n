@@ -192,11 +192,17 @@ projects[i18n][version] = "1.9"
 ; Themes
 ; ============================
 projects[] = seven
-projects[] = tao
+
+projects[rubik][type] = "theme"
+projects[rubik][version] = "3.0-beta2"
+
 projects[] = acquia_marina
 projects[] = fusion
 projects[] = mix_and_match
-projects[] = rubik
+
+projects[tao][type] = "theme"
+projects[tao][version] = "3.2"
+
 projects[singular][type] = theme
 projects[singular][download][type] = git
 projects[singular][download][url] = git://github.com/developmentseed/singular.git
@@ -207,6 +213,11 @@ projects[singular][download][url] = git://github.com/developmentseed/singular.gi
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.1/ckeditor_3.5.1.tar.gz"
 libraries[ckeditor][directory_name] = "ckeditor"
+
+libraries[jquery_ui][download][type] = "get"
+libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
+libraries[jquery_ui][directory_name] = "jquery.ui"
+libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
 libraries[flowplayer3][download][type] = "get"
 libraries[flowplayer3][download][url] = "http://releases.flowplayer.org/flowplayer/flowplayer-3.1.5.zip"
