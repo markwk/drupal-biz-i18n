@@ -353,13 +353,55 @@ projects[securesite][version] = "2.4"
 projects[variable_clean][subdir] = "performance"
 projects[variable_clean][version] = "1.x-dev"
 
-projects[views_content_cache][subdir] = "performance"
-projects[views_content_cache][version] = "2.x-dev"
-
 ;  ===================================
 ; Common Site Features
 ;  ===================================
+projects[enterprise_videos][subdir] = "oe_features"
+projects[enterprise_videos][type] = "module"
+projects[enterprise_videos][download][type] = "git"
+projects[enterprise_videos][download][url] = "git://github.com/levelten/enterprise_videos.git"
 
+projects[enterprise_podcast][subdir] = "oe_features"
+projects[enterprise_podcast][type] = "module"
+projects[enterprise_podcast][download][type] = "git"
+projects[enterprise_podcast][download][url] = "git://github.com/levelten/enterprise_podcast.git"
 
+projects[enterprise_blog][type] = "module"
+projects[enterprise_blog][subdir] = "oe_features"
+projects[enterprise_blog][download][type] = "git"
+projects[enterprise_blog][download][url] = "git://github.com/levelten/enterprise_blog.git"
 
+projects[enterprise_services][type] = "module"
+projects[enterprise_services][subdir] = "oe_features"
+projects[enterprise_services][download][type] = "git"
+projects[enterprise_services][download][url] = "git://github.com/levelten/enterprise_services.git"
 
+projects[enterprise_rotator][type] = "module"
+projects[enterprise_rotator][subdir] = "oe_features"
+projects[enterprise_rotator][download][type] = "git"
+projects[enterprise_rotator][download][url] = "git://github.com/levelten/enterprise_rotator.git"
+
+projects[enterprise_products][type] = "module"
+projects[enterprise_products][subdir] = "oe_features"
+projects[enterprise_products][download][type] = "git"
+projects[enterprise_products][download][url] = "git://github.com/levelten/enterprise_products.git"
+
+projects[enterprise_faq][type] = "module"
+projects[enterprise_faq][subdir] = "oe_features"
+projects[enterprise_faq][download][type] = "git"
+projects[enterprise_faq][download][url] = "git://github.com/levelten/enterprise_faq.git"
+
+projects[enterprise_twitter][type] = "module"
+projects[enterprise_twitter][subdir] = "oe_features"
+projects[enterprise_twitter][download][type] = "git"
+projects[enterprise_twitter][download][url] = "git://github.com/levelten/enterprise_twitter.git"
+
+projects[enterprise_calendar][type] = "module"
+projects[enterprise_calendar][subdir] = "oe_features"
+projects[enterprise_calendar][download][type] = "git"
+projects[enterprise_calendar][download][url] = "git://github.com/levelten/enterprise_calendar.git"
+
+projects[enterprise_news][type] = "module"
+projects[enterprise_news][subdir] = "oe_features"
+projects[enterprise_news][download][type] = "git"
+projects[enterprise_news][download][url] = "git://github.com/levelten/enterprise_podcast.git"
