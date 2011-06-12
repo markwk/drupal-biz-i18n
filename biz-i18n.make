@@ -7,7 +7,7 @@ core = 6.x
 ; CORE MODULES
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "git"
-projects[pressflow][download][url] = "git://github.com/levelten/enterprise_news.git"
+projects[pressflow][download][url] = "git://github.com/pressflow/6.git"
 
 ; ============================
 ; Contrib projects: Admin
