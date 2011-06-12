@@ -1,4 +1,5 @@
 ; base config for drupal international biz & media sites
+; edited with cloud9ide
 
 api = 2
 core = 6.x
@@ -335,7 +336,7 @@ libraries[audio-player][directory_name] = "audio-player"
 ;  ===================================
 ; Performance Additions
 ;  ===================================
-projects[ajaxblocks][subdir] = "performanceb"
+projects[ajaxblocks][subdir] = "performance"
 projects[ajaxblocks][version] = "1.2"
 
 projects[css_emimage][subdir] = "performance"
