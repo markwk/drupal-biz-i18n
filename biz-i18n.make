@@ -5,8 +5,8 @@ core = 6.x
 
 ; CORE MODULES
 projects[pressflow][type] = "core"
-projects[pressflow][download][type] = "get"
-projects[pressflow][download][url] = "http://files.pressflow.org/pressflow-6-current.tar.gz"
+projects[pressflow][download][type] = "git"
+projects[pressflow][download][url] = "git://github.com/levelten/enterprise_news.git"
 
 ; ============================
 ; Contrib projects: Admin
@@ -356,6 +356,11 @@ projects[variable_clean][version] = "1.x-dev"
 ;  ===================================
 ; Common Site Features
 ;  ===================================
+projects[enterprise][subdir] = "oe_features"
+projects[enterprise][type] = "module"
+projects[enterprise][download][type] = "git"
+projects[enterprise][download][url] = "git://github.com/levelten/enterprise.git"
+
 projects[enterprise_videos][subdir] = "oe_features"
 projects[enterprise_videos][type] = "module"
 projects[enterprise_videos][download][type] = "git"
