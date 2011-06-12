@@ -279,6 +279,10 @@ projects[i18n][version] = "1.9"
 ; ===========================
 ; Themes
 ; ============================
+; Allows themes to add conditional stylesheets.
+projects[conditional_styles][subdir] = "contrib"
+projects[conditional_styles][version] = "1.1"
+
 projects[] = seven
 
 projects[rubik][type] = "theme"
@@ -293,6 +297,9 @@ projects[zeropoint][version] = "1.12"
 
 projects[tao][type] = "theme"
 projects[tao][version] = "3.2"
+
+projects[ninesixty][version] = "1.0"
+projects[jackson][version] = "1.0"
 
 projects[singular][type] = theme
 projects[singular][download][type] = git
