@@ -265,7 +265,7 @@ projects[webform][subdir] = "contrib"
 projects[webform][version] = "3.9"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.3"
+projects[wysiwyg][version] = "2.x-dev"
 
 projects[wysiwyg_imageupload][subdir] = "contrib"
 projects[wysiwyg_imageupload][version] = 2.9
@@ -276,6 +276,9 @@ projects[xmlsitemap][version] = "2.0-beta2"
 ;  ===================================
 ; Internationalization & Localization Modules
 ;  ===================================
+projects[i18n][subdir] = "l10n"
+projects[i18n][version] = "1.9"
+
 projects[l10n_client][subdir] = "l10n"
 projects[l10n_client][version] = "2.0"
 
