@@ -88,11 +88,20 @@ projects[filefield][version] = "3.10"
 projects[flag][subdir] = "contrib"
 projects[flag][version] = "2.0-beta5"
 
+projects[formatted_number][subdir] = "contrib"
+projects[formatted_number][version] = "1.3"
+
+projects[format_number][subdir] = "contrib"
+projects[format_number][version] = "1.6"
+
 projects[formblock][subdir] = "contrib"
 projects[formblock][version] = "1.x-dev"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "3.3"
+
+projects[gmap][subdir] = "contrib"
+projects[gmap][version] = "1.1"
 
 projects[imageapi][subdir] = "contrib"
 projects[imageapi][version] = "1.9"
@@ -194,6 +203,9 @@ projects[path_redirect][version] = "1.0-rc2"
 
 projects[print][subdir] = "contrib"
 projects[print][version] = "1.12"
+
+projects[robotstxt][subdir] = "contrib"
+projects[robotstxt][version] = "1.2"
 
 projects[seo_checklist][subdir] = "contrib"
 projects[seo_checklist][version] = "3.0"
