@@ -404,4 +404,4 @@ projects[enterprise_calendar][download][url] = "git://github.com/levelten/enterp
 projects[enterprise_news][type] = "module"
 projects[enterprise_news][subdir] = "oe_features"
 projects[enterprise_news][download][type] = "git"
-projects[enterprise_news][download][url] = "git://github.com/levelten/enterprise_podcast.git"
+projects[enterprise_news][download][url] = "git://github.com/levelten/enterprise_news.git"
