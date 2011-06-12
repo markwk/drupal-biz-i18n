@@ -358,11 +358,17 @@ libraries[audio-player][directory_name] = "audio-player"
 projects[ajaxblocks][subdir] = "performance"
 projects[ajaxblocks][version] = "1.2"
 
+projects[boost][subdir] = "performance"
+projects[boost][version] = "1.18"
+
 projects[css_emimage][subdir] = "performance"
 projects[css_emimage][version] = "2.1"
 
+projects[dbtuner][subdir] = "performance"
+projects[dbtuner][version] = "1.0-alpha2"
+
 projects[javascript_aggregator][subdir] = "performance"
-projects[javascript_aggregator][version] = "1.x-dev"
+projects[javascript_aggregator][version] = "1.5"
 
 projects[session_expire][subdir] = "performance"
 projects[session_expire][version] = "1.x-dev"
