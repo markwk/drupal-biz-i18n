@@ -291,6 +291,54 @@ projects[languageicons][version] = "2.0"
 projects[i18n][subdir] = "l10n"
 projects[i18n][version] = "1.9"
 
+;  ===================================
+; OSSO OpenID Single Sign-On
+;  ===================================
+; Provider
+projects[openid_provider_sso][type] = "module"
+projects[openid_provider_sso][download][type] = "git"
+projects[openid_provider_sso][download][url] = "git://github.com/permaculturecoop/openid_provider_sso.git"
+projects[openid_provider_sso][subdir] = "osso"
+
+projects[openid_provider][subdir] = "osso"
+projects[openid_provider][version] = "1.0-beta3"
+
+projects[xrds_simple][subdir] = "osso"
+projects[xrds_simple][version] = "1.0"
+;  ===================================
+; Relay Sign-On to Provider
+projects[openid_sso][type] = "module"
+projects[openid_sso][download][type] = "git"
+projects[openid_sso][download][url] = "git://github.com/permaculturecoop/openid_sso.git"
+projects[openid_sso][subdir] = "osso"
+
+;  ===================================
+; Performance Additions
+;  ===================================
+projects[ajaxblocks][subdir] = "performance"
+projects[ajaxblocks][version] = "1.2"
+
+projects[boost][subdir] = "performance"
+projects[boost][version] = "1.18"
+
+projects[css_emimage][subdir] = "performance"
+projects[css_emimage][version] = "2.1"
+
+projects[dbtuner][subdir] = "performance"
+projects[dbtuner][version] = "1.0-alpha2"
+
+projects[javascript_aggregator][subdir] = "performance"
+projects[javascript_aggregator][version] = "1.5"
+
+projects[session_expire][subdir] = "performance"
+projects[session_expire][version] = "1.x-dev"
+
+projects[securesite][subdir] = "performance"
+projects[securesite][version] = "2.4"
+
+projects[variable_clean][subdir] = "performance"
+projects[variable_clean][version] = "1.x-dev"
+
 ; ===========================
 ; Themes
 ; ============================
@@ -354,33 +402,6 @@ libraries[swfobject][directory_name] = "swfobject"
 libraries[audio-player][download][type] = "get"
 libraries[audio-player][download][url] = "http://wpaudioplayer.com/wp-content/downloads/audio-player-standalone.zip"
 libraries[audio-player][directory_name] = "audio-player"
-
-;  ===================================
-; Performance Additions
-;  ===================================
-projects[ajaxblocks][subdir] = "performance"
-projects[ajaxblocks][version] = "1.2"
-
-projects[boost][subdir] = "performance"
-projects[boost][version] = "1.18"
-
-projects[css_emimage][subdir] = "performance"
-projects[css_emimage][version] = "2.1"
-
-projects[dbtuner][subdir] = "performance"
-projects[dbtuner][version] = "1.0-alpha2"
-
-projects[javascript_aggregator][subdir] = "performance"
-projects[javascript_aggregator][version] = "1.5"
-
-projects[session_expire][subdir] = "performance"
-projects[session_expire][version] = "1.x-dev"
-
-projects[securesite][subdir] = "performance"
-projects[securesite][version] = "2.4"
-
-projects[variable_clean][subdir] = "performance"
-projects[variable_clean][version] = "1.x-dev"
 
 ;  ===================================
 ; Common Site Features
